@@ -1,7 +1,7 @@
 import { Box, Container, Grid } from "@material-ui/core";
 import React from "react";
 import "./Banner.css";
-import bannerImg from "../../../images/sagor-bg.png";
+// import bannerImg from "../../../images/sagor-bg.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
 import myFile from "../../../images/sagors resume.pdf";
@@ -50,7 +50,7 @@ const Banner = () => {
             xs={12}
             className="banner-grid-right"
           >
-            <img src={bannerImg} alt="bannerImg" />
+            <img src="https://i.ibb.co/K6zzxBS/IMG-0926half.png" alt="bannerImg" />
           </Grid>
         </Box>
       </Grid>
