@@ -1,0 +1,82 @@
+.skill-section {
+    margin-bottom: 30px;
+    padding-top: 80px;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+    flex-wrap: wrap;
+}
+.button-container a {
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+.button-container a:hover {
+    text-decoration: none;
+}
+.skills-button {
+    height: 50px;
+    line-height: 50px;
+    padding: 0 30px 0 30px;
+    border-radius: 43.5px;
+    background-color: #252734;
+    border: 1px solid  rgb(59, 61, 73);
+    border-image: initial;
+    color: #fff;
+    font-size: 15px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.6s;
+    margin-bottom: 30px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.skills-button:hover, .skills-button:focus{
+    background-color:  rgb(59, 61, 73);
+    border: 1px solid #fff;
+}
+
+.skill {
+    background-color: #2A2C39;
+    margin: 10px;
+    padding: 10px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    font-family: 'Poppins', 'sans-serif';
+    font-weight: bold;
+}
+.skill > h2 {
+    color: #fff;
+    font-size: 16px;
+}
+
+.skill > p {
+    color: #fff;
+    
+}
+.progress {
+    position: absolute;
+    top: calc(100% - 15px);
+    left: 0;
+    height: 12px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+@media (max-width: 960px) {
+    .skills-button {
+        height: 45px;
+        line-height: 45px;
+        padding: 0 30px 0 30px;
+        border-radius: 43.5px;
+        color: #fff;
+        font-size: 13px;
+    }
+}
