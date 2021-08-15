@@ -49,7 +49,7 @@ const ContactMe = () => {
             </div>
             <div className="contact-info">
               <h3>Email:</h3>
-              <p>mehedihassansagor1641998@gmail.com</p>
+              <p>mehedihassansagor01gmail.com</p>
             </div>
             <div className="contact-info">
               <h3>Address:</h3>
