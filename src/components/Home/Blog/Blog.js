@@ -10,7 +10,7 @@ const Blog = () => {
   const [blogs, setBlogs] = useState([]);
   useEffect(() => {
     fetch(
-      `https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@mehedihassansagor01`
+      `https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@mehedihassansagor`
     )
       .then((res) => res.json())
       .then((data) => setBlogs(data.items.slice(0, 3)));
