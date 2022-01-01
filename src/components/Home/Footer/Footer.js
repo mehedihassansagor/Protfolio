@@ -37,7 +37,7 @@ const Footer = () => {
           </a>
           &nbsp;|| &nbsp;{" "}
           <a
-            href="https://github.com/Sagor6876778787"
+            href="https://github.com/mehedihassansagor"
             target="_blank"
             style={{ textDecoration: "none", color: "white" }}
           >
